@@ -1,68 +1,78 @@
-# CodeIgniter 4 Application Starter
+# UAS Pemograman Web 2
 
-## What is CodeIgniter?
+### Projek: Warung Online Bu Sri
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+<table>
+  <thead>
+    <tr>
+      <th>Nama Anggota</th>
+      <th>NIM</th>
+      <th>Kelas</th>
+      <th>GitHub</th>
+    </tr>
+  </thead>
+  <tr>
+      <td>Alif Nur Fathlii Amarta</td>
+      <td>312210326</td>
+      <td>TI.22.A3</td>
+      <td><a href="https://github.com/alifamarta/" target="_blank">@alifamarta</a></td>
+    </tr>
+    <tr>
+      <td>Galva Al-Ghozali</td>
+      <td>312210356</td>
+      <td>TI.22.A3</td>
+      <td><a href="https://github.com/galvaal/" target="_blank">@galvaal</a></td>
+    </tr>
+    <tbody>
+    <tr>
+      <td>Rafif Isdarufa Athallah</td>
+      <td>312210299</td>
+      <td>TI.22.A3</td>
+      <td><a href="https://github.com/zangetsuuuu/" target="_blank">@zangetsuuuu</a></td>
+    </tr>
+    <tr>
+      <td>Wisnu Ikhwansyah Saputra</td>
+      <td>312210305</td>
+      <td>TI.22.A3</td>
+      <td><a href="https://github.com/Wizzs1/" target="_blank">@Wizzs1</a></td>
+    </tr>
+  </tbody>
+</table>
 
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+---
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+### Demo Program
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+<a href="https://youtu.be/eu7SGhH0KYw"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" height="32" width="32" alt="" /></a>
 
-## Installation & updates
+### Link Website
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
+<a href="https://warungbusri.my.id"><img src="https://cdn-icons-png.flaticon.com/512/3308/3308395.png" height="32" width="32" alt="" /></a>
 
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
+### Screenshot
 
-## Setup
+#### Halaman Pelanggan
 
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
+![1](public/img/readme/1.png)
+![2](public/img/readme/2.png)
+![3](public/img/readme/3.png)
+![4](public/img/readme/4.png)
+![5](public/img/readme/5.png)
+![6](public/img/readme/6.png)
+![7](public/img/readme/7.png)
+![8](public/img/readme/8.png)
+![9](public/img/readme/9.png)
+![10](public/img/readme/10.png)
+![11](public/img/readme/11.png)
+![12](public/img/readme/12.png)
+![13](public/img/readme/13.png)
 
-## Important Change with index.php
+#### Halaman Admin
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
-
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
-
-**Please** read the user guide for a better explanation of how CI4 works!
-
-## Repository Management
-
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Server Requirements
-
-PHP version 7.4 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-> [!WARNING]
-> The end of life date for PHP 7.4 was November 28, 2022.
-> The end of life date for PHP 8.0 was November 26, 2023.
-> If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
-> The end of life date for PHP 8.1 will be November 25, 2024.
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+![14](public/img/readme/14.png)
+![15](public/img/readme/15.png)
+![16](public/img/readme/16.png)
+![17](public/img/readme/17.png)
+![18](public/img/readme/18.png)
+![19](public/img/readme/19.png)
+![20](public/img/readme/20.png)
